@@ -26,7 +26,7 @@ class HelloTest {
 
                 .andExpect(status()
                         .isOk())
-                .andExpect(content().string("Hello ROAD PROJECT :)"));
+                .andExpect(content().string("Hello ROAD PROJECTs :)"));
 
     }
 }
